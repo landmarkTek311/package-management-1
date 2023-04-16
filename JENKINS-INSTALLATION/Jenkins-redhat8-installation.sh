@@ -9,7 +9,7 @@ sudo yum -y install unzip wget tree git
 sudo wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
 sudo yum install jdk-8u131-linux-x64.rpm -y
 # 2. Add Jenkins Repository and key
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 cd /etc/yum.repos.d/
 sudo curl -O https://pkg.jenkins.io/redhat-stable/jenkins.repo
 # 3. Install Jenkins
